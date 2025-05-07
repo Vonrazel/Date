@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: linear-gradient(45deg, #ff69b4, #9370db);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+}
+
+.invitation-card {
+    background: rgba(255, 255, 255, 0.9);
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #ff69b4;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.message {
+    font-size: 1.5em;
+    color: #9370db;
+    margin-bottom: 20px;
+}
+
+.coffee-gif {
+    width: 200px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px 40px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.yes-btn {
+    background-color: #ff69b4;
+    color: white;
+}
+
+.yes-btn:hover {
+    transform: scale(1.1);
+    background-color: #ff1493;
+}
+
+.no-btn {
+    background-color: #9370db;
+    color: white;
+    position: relative;
+}
+
+.success-message {
+    margin-top: 30px;
+    color: #ff69b4;
+}
+
+.success-message h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.hidden {
+    display: none;
+} 
